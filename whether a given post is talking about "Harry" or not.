@@ -1,0 +1,10 @@
+Write a program to find out whether a given post is talking about "Harry" or not.
+Soluton:
+
+post="HaRRy went to the park for a walk."
+case_insensitive_post=post.casefold()
+
+if "harry" in case_insensitive_post:
+    print("yes, this post is talking about Harry")
+else:
+    print("no, this post is not talking about Harry")
