@@ -1,0 +1,11 @@
+#function to remove a given word from a list and strip it at the same time.
+# text="      Swagata is very good     "
+# print(text)
+# print(text.strip())
+def remove_and_split(string,word):
+    newStr=string.replace(word, "")
+    return newStr.strip()
+    
+text="      Swagata is very good    "
+n=remove_and_split(text,"Swagata")
+print(n)
