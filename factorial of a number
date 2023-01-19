@@ -1,0 +1,6 @@
+#factorial of a number
+n=int(input("Enter any number :"))
+product=1
+for i in range(n):
+    product=product*(i+1)
+print(product)  
