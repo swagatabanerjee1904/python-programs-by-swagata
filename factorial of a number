@@ -4,3 +4,14 @@ product=1
 for i in range(n):
     product=product*(i+1)
 print(product)  
+
+
+
+#factorial of a number using functions
+n=int(input("Enter any number :"))
+def factorial_iter(n):
+        product=1
+        for i in range(n):
+         product=product*(i+1)
+        return product  
+print(factorial_iter(n))  
